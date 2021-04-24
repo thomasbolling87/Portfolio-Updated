@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: 'PT Serif', serif;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+section {
+    background-color: white;
+}
+
+.logo {
+    height: 65px;
+    margin: 20px;
+}
+
+.hero {
+    height: 100vh;
+    background-color: rgb(2, 37, 37);
+    color: white;
+    font-size: 40px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 30px;
+}
+
+li {
+    width: 240px;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 90px;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    font-size: 30px;
+}
+
+.hero-area {
+    display: flex;
+    height: 100%;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.hero-text {
+    margin-left: 70px;
+    margin-bottom: 200px;
+}
+
+.networking {
+    padding-bottom: 200px;
+}
+
+.social {
+    margin: 10px;
+    display: flex;
+}
+
+.button {
+    width: 165px;
+    height: 45px;
+    border-radius: 40px;
+    font-size: 30px;
+    text-align: center;
+    background-color: burlywood;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgb(92, 63, 20);    
+}
+
+.sub-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;
+}
+
+.aboutMe-container {
+    margin-bottom: 70px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+.headshot-container {
+    display: flex;
+    align-items: center;
+}
+
+.headshot {
+    width: 300px;
+    border-radius: 100px;
+    padding: 10px;
+    margin-left: 85px;
+}
+
+.sub-section-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 70px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    width: 250px;
+    height: 500px;
+    box-shadow: 5px 5px 20px rgb(54, 50, 50);
+    border-radius: 20px;
+}
+
+@media screen and (max-width: 600px) {
+    .projects-container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .hero {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+}
+
+@media screen and (max-width: 800px) {
+    .aboutMe-container {
+        font-size: 10px;
+    }    
+}
+
+.project-image {
+    margin-top: 50px;
+    width: 250px;
+    border-radius: 125px;
+}
+
+.project-text {
+    font-size: 20px;
+    font-weight: 200;
+}
+
+hr {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.project-link {
+    text-decoration: none;
+    background-color: burlywood;
+    color: white;
+    display: inline-block;
+    border-radius: 70px;
+    width: 120px;
+    height: 30px;
+}
+
+.project-link:hover {
+    background-color: rgb(92, 63, 20); 
+}
